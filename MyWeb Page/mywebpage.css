@@ -1,0 +1,48 @@
+* {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+.container {
+
+    background: url('images/25-12-2019-5238-deer-art-vector.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Balsamiq Sans', cursive;
+    margin-left: 160px;
+    text-shadow: 0 9px 32px 0 rgba(0, 0, 0, 0.18);
+}
+
+.box1 {
+
+    width: 35vw;
+    height: 70vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(72, 71, 71, 0.459);
+
+}
+
+.box2 {
+    height: 4vh;
+    width: 7vw;
+    /* background: white; */
+}
+
+#searchbox {
+
+    height: 6vh;
+    width: 25vw;
+    margin-top: -336px;
+
+}
